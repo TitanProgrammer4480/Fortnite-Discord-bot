@@ -1,0 +1,4 @@
+flask
+threading
+fortnite_api
+pycord
