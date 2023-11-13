@@ -1,4 +1,3 @@
 flask
 fortnite_api
-pycord
-discord
+py-cord
