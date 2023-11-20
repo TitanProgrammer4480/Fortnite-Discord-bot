@@ -2,8 +2,6 @@ import discord
 import os
 import fortnite_api
 
-from Ka import keep_alive
-
 token = os.getenv('TOKEN')
 api_token = os.getenv("API_TOKEN")
 
@@ -205,7 +203,5 @@ async def news2(ctx):
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVpcCcQNUGyTpt1jjsWPZVrdEvPHO3kr7Tdg&usqp=CAU"
         )
         await ctx.respond("The news:", embed=embed)
-
-keep_alive()
 
 bot.run(token)
