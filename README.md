@@ -15,7 +15,7 @@ This bot was programmed with python. The main libraries are pycord and an api-wr
 First of all you nedd the code, you either copy the code from main.py and switch out the bot-token and the api-token into your own.
 Or you can run a command to copy the entire repositorie.
 The command:
-'''
+´´´
 Test
-'''
+´´´
 Then you need to install the dependencies. The programming language python and the libraries which stand in requirement.txt.
