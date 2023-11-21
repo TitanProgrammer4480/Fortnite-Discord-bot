@@ -1,5 +1,4 @@
 # Fortnite-Discord-bot
-=======================
 
 # Generall Info
 This bot was programmed with python. The main libraries are pycord and an api-wrapper for the fortnite api. From pycord I'm using just the shlash command feature.
