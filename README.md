@@ -1,7 +1,7 @@
 # Fortnite-Discord-bot
 
 # Generall Info
-This bot was programmed with python. The main libraries are pycord and an api-wrapper for the fortnite api. From pycord I'm using just the shlash command feature.
+This bot was programmed with python. The main libraries are pycord and an api-wrapper for the fortnite api. From pycord I'm using shlash commands and embeds.
 
 # Commands
 - /player player_name: You type the player name in and the bot returns an embed with the generall info, like the overall kills, deaths and the overall kd.
