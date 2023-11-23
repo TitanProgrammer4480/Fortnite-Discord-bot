@@ -15,6 +15,6 @@ First of all you nedd the code, you either copy the code from main.py and switch
 Or you can run a command to copy the entire repositorie.
 The command:
 ```
-Test
+gh repo clone TitanProgrammer4480/Fortnite-Discord-bot
 ```
 Then you need to install the dependencies. The programming language python and the libraries which stand in requirement.txt.
