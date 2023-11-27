@@ -180,7 +180,7 @@ async def compact_news(ctx):
 
 
 @bot.command(description="Sends news from Fortnite")
-async def news2(ctx):
+async def news(ctx):
     news_data = api.news.fetch()
     data = news_data.raw_data
 
