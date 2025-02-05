@@ -19,8 +19,8 @@ This is a Discord bot that fetches Fortnite player stats, maps, and news using t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/fortnite-discord-bot.git
-   cd fortnite-discord-bot
+   git clone https://github.com/TitanProgrammer4480/Fortnite-Discord-bot
+   cd Fortnite-Discord-bot
    ```
 
 2. Install dependencies:
