@@ -1,3 +1,2 @@
-flask
 fortnite_api
 py-cord
