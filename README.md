@@ -1,24 +1,59 @@
-# Fortnite-Discord-bot
+# Fortnite Discord Bot
 
-# Generall Info
-This bot was programmed with python. The main libraries are pycord and an api-wrapper for the fortnite api. From pycord I'm using shlash commands and embeds.
+This is a Discord bot that fetches Fortnite player stats, maps, and news using the Fortnite API. The bot is built with `py-cord` and interacts with the Fortnite API to provide real-time information.
 
-# Commands
-- /player player_name: You type the player name in and the bot returns an embed with the generall info, like the overall kills, deaths and the overall kd.
-- /blank_map: The bot returns an embed with an image of the current map.
-- /map: Now you get the map with named pois.
-- /pois: You get every poi from the current map.
-- /compact_news: You receive short news about updates and new items in Fortnite.
-- /news: The bot sends an embed for every article which he getsfrom the api. Th embed contains an image and the text.
+## 🚀 Features
+- Retrieve Fortnite player stats
+- Fetch the current Fortnite map with or without points of interest (POIs)
+- Display Fortnite news updates
+- Uses Discord slash commands for interaction
 
-# host the bot locally
-First of all you nedd the code, you either copy the code from main.py and switch out the bot-token and the api-token into your own.
-Or you can run a command to copy the entire repositorie.
-The command:
-```
-gh repo clone TitanProgrammer4480/Fortnite-Discord-bot
-```
-Then you need to install the dependencies and Python.
-```
-pip install requirements.txt
-```
+## 📌 Requirements
+- Python 3.x
+- `discord.py`
+- `fortnite-api`
+- A Discord bot token
+- A Fortnite API key
+
+## 🛠 Setup & Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/fortnite-discord-bot.git
+   cd fortnite-discord-bot
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Set up environment variables:
+   - Create a `.env` file and add the following:
+     ```env
+     TOKEN=your_discord_bot_token
+     API_TOKEN=your_fortnite_api_key
+     ```
+
+4. Run the bot:
+   ```bash
+   python bot.py
+   ```
+
+## 🎮 Commands
+
+### Player Stats
+- `/player_info <player_name>` - Retrieves and displays the Fortnite stats of a player.
+
+### Map Information
+- `/blank_map` - Sends the current blank Fortnite map.
+- `/map` - Sends the current Fortnite map with points of interest.
+- `/pois` - Lists all points of interest with their coordinates.
+
+### News
+- `/compact_news` - Displays a summarized version of the latest Fortnite news.
+- `/news` - Sends Fortnite news updates with images.
+
+
+## 📜 License
+This project is licensed under the MIT License.
